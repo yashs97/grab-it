@@ -30,23 +30,55 @@
                 <i class="fa-brands fa-whatsapp"></i>
                 <span>+91 987 654 3210</span>
             </li>
-
-            <li>World's First Online Shopping Destination</li>
-
-            <li class="help">Help?</li>
-            <li>Track Order?</li>
             
-            <li>
+            <li class="text-disappear">World's First Online Shopping Destination</li>
+
+            <li class="help text-disappear">Help?</li>
+            <li class="text-disappear">Track Order?</li>
+            
+            <li class="text-disappear">
                 <span>English</span>
                 <i class="fa-solid fa-angle-down"></i>
             </li>
 
-            <li>
+            <li class="text-disappear">
                 <span>Dollar</span>
                 <i class="fa-solid fa-angle-down"></i>
             </li>
 
         </ul>
+
+        <!-- First div on small screens -->
+        <div class="first-div disappear">
+            <li>
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>+91 987 54 3210</span>
+            </li>
+
+            <li class="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>+91 987 65 3210</span>
+            </li>
+
+            <li class="top-icon">
+                <i class="fa-solid fa-user"></i>
+            </li>
+
+            <li class="top-icon">
+                <i class="fa-regular fa-heart"></i>
+                <span class="text-icon">3</span>
+            </li>
+
+            <li class="top-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="text-icon">3</span>
+            </li>
+
+            <li>
+
+            </li>
+
+        </div>
 
     </div>
 
@@ -54,6 +86,7 @@
      <div class="second-div">
 
         <img id="logo" src="./images/logo.png" alt="">
+
 
         <form id="form-one" action="#">
             <input class="search-products" type="text" placeholder="Search Products">
@@ -98,47 +131,177 @@
                 <i class="fa-solid fa-table-cells-large"></i>
                 <span>All Categories</span>
                 <i class="fa-solid fa-angle-down"></i>
+
+                <!-- Hover nav -->
+                <div class="categories-nav">
+
+                    <ul class="left-nav">
+
+                        <div class="hover-nav-flex more-padding green-color">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            <li>Dairy & Bakery</li>
+                        </div>
+
+                        <div class="hover-nav-flex more-padding">
+                            <i class="fa-solid fa-lemon"></i>
+                            <li>Fruits & Vegetable</li>
+                        </div>
+
+                        <div class="hover-nav-flex more-padding">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <li>Snack & Spice</li>
+                        </div>
+
+                        <div class="hover-nav-flex more-padding">
+                            <i class="fa-solid fa-martini-glass-citrus"></i>
+                            <li>Juice & Drinks</li>
+                        </div>
+
+                    </ul>
+
+                    <div class="hover-navigation">
+
+                        <h3>Dairy</h3>
+                        <ul class="hover-list">
+                            <li>Milk</li>
+                            <li>Ice Cream</li>
+                            <li>Cheese</li>
+                            <li>Frozen Custard</li>
+                            <li>Frozen Yogurt</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="hover-navigation">
+                        <h3>Bakery</h3>
+                        <ul class="hover-list">
+                            <li>Cake and Pastry</li>
+                            <li>Rusk Toast</li>
+                            <li>Bread & Buns</li>
+                            <li>Chocolate Brownie</li>
+                            <li>Cream Roll</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- Hover nav ends -->
             </li>
 
-            <li class="main-nav-items">
-                <span>Home</span>
-                <i class="fa-solid fa-angle-down"></i>
-            </li>
+            <li id="ham-icon"><i class="fa-solid fa-bars"></i></li>
+            <i id="cross-icon" class="fa-solid fa-xmark"></i>
 
-            <li class="main-nav-items">
-                <span>Categories</span>
-                <i class="fa-solid fa-angle-down"></i>
-            </li>
+            <!-- Vertical nav -->
+            <div class="vert-nav"> 
+                <li class="vertical-nav">
+                    <span>Home</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
 
-            <li class="main-nav-items">
-                <span>Products</span>
-                <i class="fa-solid fa-angle-down"></i>
-            </li>
+                <li class="vertical-nav">
+                    <span>Categories</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
 
-            <li class="main-nav-items">
-                <span>Blog</span>
-                <i class="fa-solid fa-angle-down"></i>
-            </li>
+                <li class="vertical-nav">
+                    <span>Products</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
 
-            <li class="main-nav-items">
-                <span>Pages</span>
-                <i class="fa-solid fa-angle-down"></i>
-            </li>
+                <li class="vertical-nav">
+                    <span>Blog</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
 
-            <li class="main-nav-items">
-                <i class="fa-solid fa-percent"></i>
-                <span>Offers</span>
-            </li>
+                <li class="vertical-nav">
+                    <span>Pages</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                <li class="vertical-nav offers">
+                    <span>Offers</span>
+                    <i class="fa-solid fa-percent"></i>
+                </li>
+            </div>
+            <!-- Vertical nav ends -->
+
+            <div class="third-div nav-disappear">
+
+                <li class="main-nav-items">
+                    <span>Home</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                <li class="main-nav-items">
+                    <span>Categories</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                <li class="main-nav-items">
+                    <span>Products</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                <li class="main-nav-items">
+                    <span>Blog</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                <li class="main-nav-items">
+                    <span>Pages</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                <li class="main-nav-items">
+                    <i class="fa-solid fa-percent"></i>
+                    <span>Offers</span>
+                </li>
+
+            </div>
 
             <li class="main-nav-right">
                 <i class="fa-solid fa-location-dot"></i>
                 <span>New York</span>
                 <i class="fa-solid fa-angle-down"></i>
+
+                <!-- Hover nav -->
+                 <ul class="hover-nav">
+
+                    <div class="hover-nav-flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <li>Current Location</li>
+                    </div>
+                    
+                    <div class="hover-nav-flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <li>Los Angeles</li>
+                    </div>
+
+                    <div class="hover-nav-flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <li>Chicago</li>
+                    </div>
+
+                    <div class="hover-nav-flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <li>Houston</li>
+                    </div>
+
+                    <div class="hover-nav-flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <li>Phoenix</li>
+                    </div>
+
+                    <div class="hover-nav-flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <li>San Diego</li>
+                    </div>
+                 </ul>
+
+                 
             </li>
 
         </ul>
-
-      </nav>
+    </nav>
    </header> 
 
    <main>
@@ -342,7 +505,7 @@
     <section class="second-banner">
         <!-- <img id="hero-img" src="./images/slider-one.jpg" alt=""> -->
         <div class="second-banner-text">
-            <h2>Fresh Fruits <br> Healthy Products</h2>
+            <h1>Fresh Fruits <br> Healthy Products</h1>
             <h3><span>30% off sale</span> Hurry up!!!</h3>
             <button>Shop Now</button>
         </div>
@@ -619,7 +782,7 @@
         
             <div class="first-image">
                 <div class="image-flex">
-                    <h2>Tasty Snack <br> & Fast Food</h2>
+                    <h1>Tasty Snack <br> & Fast Food</h1>
                     <h3>The Flavor Of <br>Something Special</h3>
                     <button>Shop Now</button>
                 </div>
@@ -627,7 +790,7 @@
 
             <div class="second-image">
                 <div class="image-flex">
-                    <h2>Fresh Fruits <br> & Veggies</h2>
+                    <h1>Fresh Fruits <br> & Veggies</h1>
                     <h3><Every>A Healthy Meal For <br>Every One</h3>
                     <button>Shop Now</button>
                 </div>
@@ -1063,5 +1226,6 @@
         
     </div>
 
+<script src="./script.js"></script>
 </body>
 </html>
